@@ -13,18 +13,20 @@
 
 <body>
     <body>
+    <!--Header-menu-->    
     <header>
       <div class="header-content">
           <div class="logo">
             <ul>
-            <li><img src="img/logo1.png" class="logo_img"></li>
-            <li><a href="index.php" class="logo_a">Municipalidad Distrital de San Juan del Oro</a>
+            <li><img src="img/logo_2.png" class="logo_img"></li>
+            <li><a href="index.php" class="logo_a">Municipalidad Distrital de <b>SAN JUAN DEL ORO</b></a></li>
+            </ul>
           </div>
       
           <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
+                    <li class="menu-selected"><a href="#" class="text-menu-selected">Inicio</a></li>
                     <li class="lista_item list_item--click"><a href="#">Municipio</a>
                         <ul>
                             <li><a href="#">Misión</a></li>
@@ -36,11 +38,15 @@
                     <li><a href="#">Noticias</a></li>
                     <li><a href="#">Trámite documentario</a></li> 
                 </ul>
-            </nav>
-
-        
+            </nav>      
           </div>
       </div>
     </header>
+  <!--Portada-->
+    <div class="container-cover">
+        <div class="container-info-cover">
+            <h1>Distrito de Yanahuaya en sus 59 años de creación política</h1>
+        </div>
+    </div>
   </body>
 </html>
